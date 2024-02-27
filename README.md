@@ -137,5 +137,14 @@ data=[1,12,15,18,21,24,27,20,30,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,
 df=pd.DataFrame(data)
 df
 ```
+![Screenshot 2024-02-27 165123](https://github.com/Anusharonselva/exno1/assets/119405600/465d8282-cd30-407e-a324-a2c47a1e931e)
+```
+import numpy as np
+from scipy import stats
+z=np.abs(stats.zscore(df))
+z
+```
+![Screenshot 2024-02-27 165355](https://github.com/Anusharonselva/exno1/assets/119405600/b5f74efa-cb34-4a51-88f3-b9f2e952398c)
+
 # Result
-          <<include your Result here>>
+Thus we read the given data and perform data cleaning and save the cleaned data to a file.
